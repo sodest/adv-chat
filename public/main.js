@@ -23,8 +23,7 @@ $(function() {
   var lastTypingTime;
   var $currentInput = $usernameInput.focus();
 
-  // var socket = io.connect('http://127.0.0.1:8080');
-  var socket = io.connect('http://app-dorkso.rhcloud.com:8000');
+  var socket = io.connect('http://adv-dorkso.rhcloud.com:8000');
 
   function addParticipantsMessage (data) {
     var message = '';
