@@ -1,8 +1,20 @@
 {
-  "name": "adv-chat",
+  "name": "openshift-socket-chat",
   "version": "0.0.1",
-  "description": "advanced chat socket.io",
-  "author": "Grant Timmerman",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift",
+    "socket.io",
+    "chat"
+  ],
+  "author": "Tim Trowbridge",
   "license": "BSD",
   "engines": {
     "node": ">= 0.10.0",
@@ -12,6 +24,8 @@
     "socket.io": "1.2.0",
     "express": "4.10.2"
   },
-  "private": true,
-  "main": "index.js"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sodest/adv-chat.git"
+  }
 }
